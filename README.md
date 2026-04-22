@@ -37,6 +37,11 @@ content and layout directly in `main.tex`.
 For the more interested folks, detailed instructions are available on the
 original template page.
 
+## Misc
+
+I've added a `build_private.sh` script that I use myself to generate a pdf of my
+resume that includes my real phone number. This may or may not be useful to you.
+
 ## Credits
 
 Original template can be viewed and downloaded from [latextemplates.com](https://www.latextemplates.com/template/developer-cv).
