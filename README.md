@@ -5,7 +5,7 @@ experience, projects, languages, and more.
 
 ## Preview
 
-{Placeholder}
+<img width="2481" height="3508" alt="output-1" src="https://github.com/user-attachments/assets/43ba7b75-67d5-4ad5-92dc-a93d964d3ac2" />
 
 ## Usage
 
