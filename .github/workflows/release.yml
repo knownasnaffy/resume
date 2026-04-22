@@ -23,8 +23,12 @@ jobs:
           name: pdf
           path: main.pdf
 
+      - name: Set short SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
       - name: Create Release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: latest
+          tag_name: release-${{ env.SHORT_SHA }}
+          name: Release: ${{ env.SHORT_SHA }}
           files: main.pdf
